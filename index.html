@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment2</title>
+    <script>
+        function myFunction() {
+            alert("I am a popup window!");
+        }
+        </script>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html" onclick="myFunction()">Home</a></li>
+        <li><a href="#section1" onclick="myFunction()">About</a></li>
+        <li><a href="#section2" onclick="myFunction()">Book</a></li>
+        <li><a href="#section3" onclick="myFunction()">Contact</a></li>
+      </ul>
+      
+    <!-- Section 1 -->
+    <div id="section1">
+    <h1>Assignment 1</h1>
+    <div>
+    <p>Hey! It looks like a paragraph, but there is a block/box here too. 
+        Find that HTML element other than &lt;p&gt; and &lt;h&gt;</p>
+    </div>
+
+    <p><a href="https://www.google.com/" style="color:#e092a5;">This is a link to Google</a></p>
+    
+    <img src="nyc.jpg" alt="New York City" width="150px" height="200px">
+    
+    <div>
+    <p><i>Email me by clicking on <a href="mailto: john.doe@example.com">John Doe</a><br>
+    Visit us at: </br>
+    <a href="https://www.disney.com">Disney World</a></br>
+    Box 678, Disneyland </br>
+    USA</i></p>
+    </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div id="section2">
+        <img src="nyc.jpg" alt="New York City">
+        <div class="sub-section2">
+        <div style="background-color:hotpink; font-family: Arial; height:50px;">This is the hotpink paragraph, font family is Arail</div>
+        <div style="background-color:pink; font-family: Courier; height:50px;">This is the pink paragraph, font family is Courier</div>
+        <div style="background-color:lightpink; font-family: Corsiva; height:50px;">This is the lightpink paragraph, font family is Corsiva</div>
+        <br><br><br>
+        <button type="button" name="button">This is a button</button>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <!-- section 3 -->
+    <div id="section3">
+    <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Google</td>
+          <td>John Doe</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Amazon</td>
+          <td>Tom Cheng</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <td>LinkedIn</td>
+          <td>Jack Lee</td>
+          <td>USA</td>
+        </tr>
+        <tr>
+          <td>Alibaba</td>
+          <td>Yun Ma</td>
+          <td>China</td>
+          </tr>
+      </table>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <p>Study Button, input, form and textarea element</p>
+    </div>
+
+</body>
+</html>
