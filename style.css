@@ -37,7 +37,7 @@ ul{
     padding: 15px;
     width: 20%;
     height: 200px;
-    overflow: scroll;
+    overflow-y: scroll;
     border: 3px solid hotpink;
   }
 
