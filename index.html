@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <title>Assignment2</title>
     <script>
+        // When the user clicks on div, open the popup
         function myFunction() {
-            alert("I am a popup window!");
+          alert('I am a popup window');
         }
         </script>
 </head>
 <body>
     <ul>
-        <li><a href="index.html" onclick="myFunction()">Home</a></li>
-        <li><a href="#section1" onclick="myFunction()">About</a></li>
-        <li><a href="#section2" onclick="myFunction()">Book</a></li>
-        <li><a href="#section3" onclick="myFunction()">Contact</a></li>
+        <li><a href="index.html"">Home</a></li>
+        <li><a href="#section1">About</a></li>
+        <li><a href="#section2">Book</a></li>
+        <li><a href="#section3">Contact</a></li>
       </ul>
       
     <!-- Section 1 -->
@@ -49,7 +50,7 @@
         <div style="background-color:pink; font-family: Courier; height:50px;">This is the pink paragraph, font family is Courier</div>
         <div style="background-color:lightpink; font-family: Corsiva; height:50px;">This is the lightpink paragraph, font family is Corsiva</div>
         <br><br><br>
-        <button type="button" name="button">This is a button</button>
+        <button type="button" name="button" onclick="myFunction()">This is a button</button>
         </div>
     </div>
 
