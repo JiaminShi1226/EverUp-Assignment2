@@ -30,15 +30,11 @@ ul{
   }
 
   #section1{
-    margin: auto;
+    width: 40%;
+	position: relative;
     margin-top: 30px;
-    background: gray;
-    color: white;
-    padding: 15px;
-    width: 20%;
-    height: 200px;
-    overflow-y: scroll;
-    border: 3px solid hotpink;
+	left: 30%;
+	height: 40vh;
   }
 
   #section2{
