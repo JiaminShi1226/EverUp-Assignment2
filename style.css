@@ -35,6 +35,8 @@ ul{
     margin-top: 30px;
 	left: 30%;
 	height: 40vh;
+    border: solid 3px hotpink;
+    border-radius: 10px;
   }
 
   #section2{
